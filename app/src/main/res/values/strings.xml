@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lblStartHead">Start Time</string>
+    <string name="lblStartDetail">What time do you typically fall asleep?</string>
+    <string name="lblStopHead">Stop Time</string>
+    <string name="lblStopDetail">What time do you want to wake up?</string>
+    <string name="lblLengthHead">Sleep Time</string>
+    <string name="lblLengthDetail">How much sleep do you need?</string>
+    <string name="lblIntervalHead">Sleep Interval</string>
+    <string name="lblIntervalDetail">On what interval should I wake you?</string>
+    <string name="lblAnytime">Anytime</string>
+    <string name="lblAlarmTime">Alarm is set for </string>
+    <string name="btnSetAlarm">Set Alarm</string>
+    <string name="lblTimeBlank">00:00 AM</string>
+</resources>
