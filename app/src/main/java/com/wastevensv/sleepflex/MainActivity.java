@@ -4,8 +4,6 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.RadioButton;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -39,32 +37,4 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void onRadioButtonClicked(View view) {
-        // Is the button now checked?
-        boolean checked = ((RadioButton) view).isChecked();
-
-        // Check which radio button was clicked
-        switch(view.getId()) {
-            case R.id.radAnytime:
-                if (checked)
-                    // Pirates are the best
-                    break;
-            case R.id.radFifteen:
-                if (checked)
-                    // Ninjas rule
-                    break;
-            case R.id.radThirty:
-                if (checked)
-                    // Ninjas rule
-                    break;
-            case R.id.radFortyFive:
-                if (checked)
-                    // Ninjas rule
-                    break;
-            case R.id.radHour:
-                if (checked)
-                    // Ninjas rule
-                    break;
-        }
-    }
 }
